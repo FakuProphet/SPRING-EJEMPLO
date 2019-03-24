@@ -22,7 +22,7 @@ public class HomeController {
             vistas como servlet al estilo screen.
         */
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("home");
+        mav.setViewName("home/home");
         String  id  = request.getParameter("id");
         String  id2  = request.getParameter("id2");
         
