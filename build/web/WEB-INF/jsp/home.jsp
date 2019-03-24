@@ -16,5 +16,7 @@
         <h1>Hello World! desde Home....</h1>
         
         <h1>recuperando el dato id, igual a: <c:out value="${id}"/></h1>
+        <h1>recuperando el dato id2, igual a: <c:out value="${id2}"/></h1>
+        <h1>resultado de la suma: <c:out value="${suma}"/></h1>
     </body>
 </html>
