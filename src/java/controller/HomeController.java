@@ -25,4 +25,12 @@ public class HomeController {
         return mav;
     }
     
+    @RequestMapping("nosotros.htm")
+    public ModelAndView nosotros(){
+        
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("nosotros");
+        return mav;
+    }
+    
 }
