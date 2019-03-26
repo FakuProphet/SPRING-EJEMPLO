@@ -23,7 +23,7 @@
                 <prop key="index.htm">indexController</prop>
                 <prop key="home.htm">homeController</prop>
                 <prop key="nosotros.htm">homeController</prop>
-
+                <prop key="formulario.htm">formController</prop>
             </props>
         </property>
     </bean>
@@ -37,7 +37,8 @@
     The index controller.
     -->
     <!--por cada controlador un bean-->
-    <bean name="homeController" class="controller.HomeController"/> 
+    <bean name="homeController" class="controller.HomeController"/>
+     <bean name="formController" class="controller.FormController"/>  
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />

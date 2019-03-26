@@ -19,5 +19,7 @@
         <a href="<c:url value="home.htm" />">ir a home</a>
         <hr/>
         <a href="<c:url value="nosotros.htm" />">ir a nosotros</a>
+        <hr/>
+        <a href="<c:url value="formulario.htm" />">ir a carga de afiliado</a>
     </body>
 </html>
