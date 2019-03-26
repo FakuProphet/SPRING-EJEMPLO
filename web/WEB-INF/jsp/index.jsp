@@ -15,7 +15,9 @@
                 the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new
                 welcome page and also update the welcome-file setting in</i>
             <tt>web.xml</tt>.</p>
-        <h/>
+        <hr/>
         <a href="<c:url value="home.htm" />">ir a home</a>
+        <hr/>
+        <a href="<c:url value="nosotros.htm" />">ir a nosotros</a>
     </body>
 </html>
