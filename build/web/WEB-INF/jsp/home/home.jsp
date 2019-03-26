@@ -23,5 +23,6 @@
         <h1></h1>
         <a href="javascript:void(0);" onclick="saludo();"> click</a>
         <img src="<c:url value="/public/img"/>"/>
+        <a href="<c:url value="index.htm" />">ir a index</a>
     </body>
 </html>
