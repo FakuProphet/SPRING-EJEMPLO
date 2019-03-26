@@ -23,13 +23,17 @@ public class HomeController {
         */
         ModelAndView mav = new ModelAndView();
         mav.setViewName("home/home");
+       
+        
         String  id  = request.getParameter("id");
         String  id2  = request.getParameter("id2");
         
-        int suma = Integer.parseInt(id) + Integer.parseInt(id2);
-        mav.addObject("id", id);
-        mav.addObject("id2", id2);
-        mav.addObject("suma", suma);
+        
+            int suma = Integer.parseInt(id) + Integer.parseInt(id2);
+            mav.addObject("id", id);
+            mav.addObject("id2", id2);
+            mav.addObject("suma", suma);
+        
         return mav;
     }
     
