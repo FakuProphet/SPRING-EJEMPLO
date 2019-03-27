@@ -13,9 +13,13 @@
             <div class="row">
                 
                 <form:form method="post" commandName="afiliado">
+                    
+                    <form:errors path="*" element="div" cssClass="alert alert-danger"/>
+                    
+                    
                     <p>
                         <form:label path="dni">DNI</form:label>
-                        <form:input path="dni" cssClass="form-control"/>
+                        <form:input path="dni" cssClass="form-control" />
                     </p>
                     <p>
                         <form:label path="codAfiliado">CODIGO</form:label>
