@@ -25,6 +25,7 @@
                 <prop key="nosotros.htm">homeController</prop>
                 <prop key="formulario.htm">formController</prop>
                 <prop key="formularioDos.htm">formDosController</prop>
+                <prop key="formularioTres.htm">formTresController</prop>
             </props>
         </property>
     </bean>
@@ -39,6 +40,7 @@
     -->
     <!--por cada controlador un bean-->
     <bean name="homeController" class="controller.HomeController"/>
+    <bean name="formTresController" class="controller.FormTresController"/>
     <bean name="formController" class="controller.FormController"/>  
     <bean name="formDosController" class="controller.FormDosController"/>  
     <bean name="indexController"
